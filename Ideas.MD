@@ -4,3 +4,4 @@ I'll start with a few:
 Spotify API
 Overwatch?
 [Battle.net API](https://dev.battle.net/)
+Another thought: Instagram's API!
