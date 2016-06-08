@@ -12,6 +12,7 @@ James, chance, Randall - back end: Google maps/Yelp or google places/Instagram
       *date night
      * drinking night
 ## Each person throw in 3-5 locations/themes
+### locations MUST be walkable (1/2 mile) in distance
 
 TO DO LIST:
 1. Agree on variable nomenclature
@@ -21,6 +22,8 @@ TO DO LIST:
 Ben and David need design ideas.
 
 # Everyone design 3-5 evenings all across Austin
+
+
 
 phase 2 ideas:
      social aspect
