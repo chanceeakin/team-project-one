@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title></title>
+	<style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+      	margin-top: 200px;
+        height: 50%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    </style>
+</head>
+<body>
+<div id="map">
+	<img src="https://maps.googleapis.com/maps/api/staticmap?center=Austin,TX&zoom=13&size=400x400&
+markers=color:blue%7Clabel:S%7C11211%7C11206%7C11222&key=AIzaSyBEjcwMzxCvRMzZ85TpglZoENETTRpN1s8">
+</div>
+
+<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEjcwMzxCvRMzZ85TpglZoENETTRpN1s8&callback=initMap"
+    async defer></script>
+
+<script type="text/javascript">
+	// var map;
+
+ //    function initMap() {
+ //        map = new google.maps.Map(document.getElementById('map'), {
+ //          center: "austin + texas",
+ //          zoom: 18
+ //        })
+ //    };
+</script>
+
+</body>
+</html>
