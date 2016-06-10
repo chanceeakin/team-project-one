@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
+    <title>Geocoding service</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        height: 100%;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
+    <div id="floating-panel">
+      <input id="address" type="textbox" value="">
+      <input id="submit" type="button" value="Places Search">
+    </div>
     <div id="map"></div>
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaaBh-p6JLeuyUa265yJu6qdXcw4nt56g&callback=initMap"
-    async defer></script>
     <script src="assets/javascript/eakinajaxmaptest.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaaBh-p6JLeuyUa265yJu6qdXcw4nt56g&libraries=places&callback=initMap"
+    async defer></script>
   </body>
 </html>
